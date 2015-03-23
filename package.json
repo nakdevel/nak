@@ -1,0 +1,23 @@
+{
+  "name": "NaK",
+  "version": "1.0.0",
+  "description": "Nak Web Application",
+  "main": "nak.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nakdevel/nak.git"
+  },
+  "author": "jR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nakdevel/nak/issues"
+  },
+  "homepage": "https://github.com/nakdevel/nak",
+  "dependencies": {
+    "express": "^4.12.3",
+    "express3-handlebars": "^0.5.2"
+  }
+}
