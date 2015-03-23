@@ -1,0 +1,15 @@
+body {
+    margin: 0 auto;
+    min-width: 400px;
+    font-family: sans-serif;
+    color: #5f615f
+}
+
+.elegance {
+    font-size: 14px;
+    margin-top: 0;
+}
+
+#site {
+    background-color: white;
+}
