@@ -1,8 +1,48 @@
-body {
-    margin: 0 auto;
-    min-width: 400px;
-    font-family: sans-serif;
-    color: #5f615f
+*, html {
+    margin:0;
+    padding:0;
+}
+
+
+/* header styles */
+header {
+    border:1px solid;
+    border-color:rgba(0,0,0,0.1);
+    border-bottom-color:rgba(0,0,0,0.2);
+    border-top:none;
+    background:#f7f7f7;
+    background:-webkit-linear-gradient(top, #cf6502, #b05601);
+    background:-moz-linear-gradient(top, #cf6502, #b05601);
+    background:-o-linear-gradient(top, #cf6502, #b05601);
+    background:linear-gradient(to bottom, #cf6502, #b05601);
+    background-clip:padding-box;
+    border-radius:0 0 5px 5px;
+    margin: auto;
+    position: relative;
+    width: 1000px;
+}
+header a {
+    color: #4C9FEB;
+}
+header a:hover {
+    color: #FF7D4C;
+}
+
+#links {
+    float: right;
+    font-size: 12px;
+    margin: 10px 20px 0;
+    overflow: hidden;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+#links a {
+    border-left: 1px solid #DEDEDE;
+    margin-left: 7px;
+    padding-left: 8px;
+    text-decoration: none;
+}
+#links a:first-child {
+    border-width: 0;
 }
 
 .elegance {
@@ -12,4 +52,18 @@ body {
 
 #site {
     background-color: white;
+}
+
+nav {
+    float: right;
+    background-color: #6b6060;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+}
+nav ul li a {
+    display: block;
+    padding: 7px 12px;
 }
